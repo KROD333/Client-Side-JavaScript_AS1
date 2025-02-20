@@ -1,5 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 33px;
+}
+
+#word-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 33px 0;
+}
+
+#word-buttons button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#word-story {
+    margin-top: 33px;
+    font-size: 33px;
+    font-weight: bold;
 }
